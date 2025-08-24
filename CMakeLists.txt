@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_executable(NetoStructs
         libio.hpp
+
         firstTask.cpp
         #secondTask.cpp
         #thirdTask.cpp

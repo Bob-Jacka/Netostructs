@@ -32,7 +32,7 @@ namespace libio {
      * Print to console without new line symbol.
      * @tparam T generic type to print.
      * @param str generic object to print.
-     * @param separator delimeter between objects in console.
+     * @param separator delimiter between objects in console.
      */
     template<typename T>
     void print(T str, std::string separator = " ") {

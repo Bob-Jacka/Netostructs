@@ -21,41 +21,41 @@ int main() {
         libio::print("Введите номер месяца: ");
         libio::intUserInput(month_num);
         if (month_num != 0) {
-            switch (month_num) {
-                case static_cast<int>(Month::January):
+            switch (static_cast<Month>(month_num)) {
+                case Month::January:
                     libio::println("Январь");
                     continue;
-                case static_cast<int>(Month::February):
+                case Month::February:
                     libio::println("Февраль");
                     continue;
-                case static_cast<int>(Month::March):
+                case Month::March:
                     libio::println("Март");
                     continue;
-                case static_cast<int>(Month::April):
+                case Month::April:
                     libio::println("Апрель");
                     continue;
-                case static_cast<int>(Month::May):
+                case Month::May:
                     libio::println("Май");
                     continue;
-                case static_cast<int>(Month::June):
+                case Month::June:
                     libio::println("Июнь");
                     continue;
-                case static_cast<int>(Month::July):
+                case Month::July:
                     libio::println("Июль");
                     continue;
-                case static_cast<int>(Month::August):
+                case Month::August:
                     libio::println("Август");
                     continue;
-                case static_cast<int>(Month::September):
+                case Month::September:
                     libio::println("Сентябрь");
                     continue;
-                case static_cast<int>(Month::October):
+                case Month::October:
                     libio::println("Октябрь");
                     continue;
-                case static_cast<int>(Month::November):
+                case Month::November:
                     libio::println("Ноябрь");
                     continue;
-                case static_cast<int>(Month::December):
+                case Month::December:
                     libio::println("Декабрь");
                     continue;
                 default:
